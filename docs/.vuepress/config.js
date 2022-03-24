@@ -9,8 +9,8 @@ const folders = rootfiles.filter(
 );
 
 module.exports = {
-  title: "Vuepress template",
-  description: "Vuepress 模板",
+  title: "程式設計筆記",
+  description: "程式設計相關筆記",
   themeConfig: {
     navbar: [...getNavBar()],
     sidebar: { ...getSideBar() },
